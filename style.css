@@ -1,0 +1,80 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:"Manrope", sans-serif;
+    margin: 0;
+    background-color: #202733;
+   
+}
+
+.container{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 90%;
+   
+   
+}
+
+.main { display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    
+    
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5rem 2rem 0;
+    max-width: 540px;
+    border-radius: 1rem;
+    gap: 1rem;
+    min-width: 230px;
+    
+}
+
+.advice{
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+    
+}
+.advice__title{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.btn{
+    border-radius: 100px;
+    padding: 1.3rem;
+    transform: translateY(30px);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: hsl(150, 100%, 66%);
+}
+
+
+.btn:hover {
+    box-shadow: 0 0 40px hsl(150, 100%, 66%);
+}
+.divider{
+    
+width: 90%;
+margin: 0 auto;
+}
+
+
+
